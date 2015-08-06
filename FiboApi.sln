@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{61B2EFDC-8C69-4220-9765-25B3100D40F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{070217EE-A6FC-4E80-92ED-8E5085850C76}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FiboApi", "src\FiboApi\FiboApi.xproj", "{BE20C1B8-CD2E-44F1-BF02-CDF13412E68E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE20C1B8-CD2E-44F1-BF02-CDF13412E68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE20C1B8-CD2E-44F1-BF02-CDF13412E68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE20C1B8-CD2E-44F1-BF02-CDF13412E68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE20C1B8-CD2E-44F1-BF02-CDF13412E68E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE20C1B8-CD2E-44F1-BF02-CDF13412E68E} = {61B2EFDC-8C69-4220-9765-25B3100D40F1}
+	EndGlobalSection
+EndGlobal
